@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="work.css" />
+    <title>bootstrap</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Restaurant Name</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Delicious meals crafted with love</p>
+        <a href="#menu" class="cta-button">Explore Our Menu</a>
+      </div>
+    </section>
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img
+            src="https://www.kikkoman.eu/fileadmin/_processed_/0/3/csm_fresh-salad-food-news-header-desktop_18438e9a1e.webp"
+            alt="Dish 1"
+          />
+          <h3>Dish 1</h3>
+          <p>A delicious dish made with fresh ingredients.</p>
+          <p class="price">$20.00</p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://www.laboiteny.com/cdn/shop/articles/baking_600x.jpg?v=1643401760"
+            alt="Dish 2"
+          />
+          <h3>Dish 2</h3>
+          <p>A savory treat with a hint of spice.</p>
+          <p class="price">$25.00</p>
+        </div>
+        <div class="menu-item">
+          <img
+          src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgait1ZCIlpaBhcmOK2qopuBJXiPhHISWZg&s
+          alt="Dish 3" />
+          <h3>Dish 3</h3>
+          <p>A refreshing and light meal perfect for any time.</p>
+          <p class="price">$18.00</p>
+        </div>
+      </div>
+    </section>
+    <section id="about-us">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="restaurant-about.jpg" alt="About Us" />
+        </div>
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>
+            Our restaurant offers a unique dining experience with dishes made
+            from the finest ingredients. We strive to create an ambiance that
+            feels like home.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+          rows="4"
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
